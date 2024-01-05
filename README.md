@@ -45,7 +45,7 @@ You can access the live demo of the app at
 feyse-password-generator-app/
 │
 ├── index.html
-├── style.css
+├── styles.css
 └── index.js
 ```
 
