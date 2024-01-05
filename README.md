@@ -53,10 +53,6 @@ feyse-password-generator-app/
 
 Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue on the GitHub repository.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
-
 ## Acknowledgements
 
 - Special thanks to [OWASP Foundation](https://www.owasp.org) for providing a list of password special characters.
