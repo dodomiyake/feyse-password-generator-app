@@ -42,7 +42,7 @@ You can access the live demo of the app at
 
 ## Project Structure
 ```
-Oluwadamilola-console-finances/
+feyse-password-generator-app/
 │
 ├── index.html
 │
