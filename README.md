@@ -36,8 +36,8 @@ You can access the live demo of the app at
 
 **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/Console-Finances.git
-   cd Console-Finances
+   git clone https://github.com/yourusername/password-generator-app.git
+   cd password-generator-app
    ```
 
 ## Project Structure
@@ -45,7 +45,7 @@ You can access the live demo of the app at
 Oluwadamilola-console-finances/
 │
 ├── index.html
-├── app/
+│
 └── index.js
 ```
 
