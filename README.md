@@ -19,7 +19,7 @@ The Password Generator App is a web application that allows users to generate se
 
 ## Demo
 
-You can access the live demo of the app at
+You can access the live demo of the app at https://dodomiyake.github.io/feyse-password-generator-app
 
 ### Screenshots
 
@@ -45,8 +45,8 @@ You can access the live demo of the app at
 feyse-password-generator-app/
 │
 ├── index.html
-├── styles.css
-└── index.js
+├── style.css
+└── script.js
 ```
 
 ## Contributing
