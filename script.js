@@ -133,7 +133,14 @@ function generatePassword() {
   if(passwordOption.userUpperCase){
     allChars = allChars.concat(upperCasedCharacters);
   }
+
+  // Check if at least one character type is selected
+  if(allChars.length === 0){
+    alert("Please select at least one character type.");
+    return "Password generation canceled.";
+  }
 }
+
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
