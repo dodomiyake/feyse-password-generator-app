@@ -141,7 +141,23 @@ function generatePassword() {
   }
 
 
-  
+  // Generate the password
+  var passwordLength = 16; // You can set this to any value between 8 and 128
+
+  // Ensure the length is within the desired range
+  if (passwordLength < 8 || passwordLength > 128) {
+    alert("Please choose a password length between 8 and 128 characters.");
+  } else {
+    // Loop to generate the password with the specified length
+    for (var i = 0; i < passwordLength; i++) {
+      var randomChar = getRandom(allChars);
+      password += randomChar;
+    }
+  }
+
+  // 'password' now contains a randomly generated password with the desired length
+
+  return password;
 }
 
 
