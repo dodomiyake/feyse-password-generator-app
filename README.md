@@ -23,7 +23,7 @@ You can access the live demo of the app at https://dodomiyake.github.io/feyse-pa
 
 ### Screenshots
 
-![Password Generator App Screenshot](./screenshots/password-generator-app.png)
+![Alt text](image.png)
 
 ## Technologies Used
 

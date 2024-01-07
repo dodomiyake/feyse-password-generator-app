@@ -139,6 +139,9 @@ function generatePassword() {
     alert("Please select at least one character type.");
     return "Password generation canceled.";
   }
+
+
+  
 }
 
 
