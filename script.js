@@ -107,12 +107,33 @@ function getPasswordOptions() {
 
 // Function for getting a random element from an array
 function getRandom(arr) {
-  var randomNum = Math.floor(Math.random() * arr.length)
+  var randomNum = Math.floor(Math.random() * arr.length);
   return arr[randomNum];
 }
 
 // Function to generate password with user input
-function generatePassword() {}
+function generatePassword() {
+  // Get user preferences for password options
+  var passwordOption = getPasswordOptions();
+
+  //Variable to store password and arrays generated
+  var allChars = [];
+  var password = "";
+
+  // Combine character sets based on user preferences
+  if(passwordOption.userSpecial){
+    allChars = allChars.concat(specialCharacters);
+  }
+  if(passwordOption.userNumeric){
+    allChars = allChars.concat(numericCharacters);
+  }
+  if(passwordOption.userLowerCase){
+    allChars = allChars.concat(lowerCasedCharacters);
+  }
+  if(passwordOption.userUpperCase){
+    allChars = allChars.concat(upperCasedCharacters);
+  }
+}
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
